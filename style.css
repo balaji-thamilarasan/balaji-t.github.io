@@ -1,0 +1,283 @@
+html 
+{
+	scroll-behavior: smooth;
+}
+{
+	font-size: 16px;
+}
+.navbar
+{
+	background-color: #854fee;
+	padding: 10px;
+}
+.navbar-nav li
+{
+	padding: 0px 15px;
+}
+.navbar-nav li a
+{
+	color: #fff !important;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.nav-link 
+{ 
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+}
+.nav-link:hover
+{
+	transition: .5s;
+	border-radius: 5px;
+	background-color: #fff;	
+	color:  #854fee !important;
+}
+.home-height
+{
+	width: 700px;
+}
+.promo-title
+{
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+	margin-top: 160px;
+	font-size: 50px;
+	padding: 0px;
+}
+.promo-title2
+{
+	font-family: 'Rancho' ;
+	font-family: 'Josefin Sans' ;
+	margin-top: 0px;
+	margin-left: 160px;
+	padding: 0px;
+	font-size: 60px;
+	margin-bottom: 70px;
+}
+#banner
+{
+	
+}
+.img-fluid
+{
+	margin-top: 140px;
+}
+.cv-button
+{
+	margin-left: 100px;
+	border: 2px solid #854fee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right:  25px;
+	padding-left:   25px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 20px;	
+	color: #854fee;
+	font-weight: 600;
+	box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+.cv-button:hover
+{
+	transition: .5s;
+	background-color: #854fee;
+	text-decoration: none;
+	color: white;
+}
+#aboutus
+{
+
+}
+.service-img
+{
+	box-shadow: 5px 10px 10px rgb(48, 57, 82);
+	transition: .5s;
+	border-radius: 5px;
+	height: 490px;
+	width: 368px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.intro-h1
+{
+	font-family:'Poppins', sans-serif;
+	margin-top: 150px;
+	font-size: 60px;
+	font-weight: bolder;
+}
+.intro-p
+{
+	font-weight: bold;
+	font-family:'Poppins', sans-serif;
+	margin-top: 30px;
+	font-size: 20px;
+}
+.title::before
+{
+	content: '';
+	background-color: #854fee;
+	height: 5px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	display: block;
+	transform: translate(8px);
+}
+#skills
+{
+	background-color: #f5f6fa;
+}
+.skill-img
+{
+	margin-top: 70px;
+	width: 350px;
+	height: 250px;
+	border-radius: 5px;
+}
+.skills-h1::before
+{
+	content: '';
+	background-color: #854fee;
+	height: 5px;
+	width: 180px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	display: block;
+	transform: translate(8px);
+}
+.web-h1
+{
+	font-family: 'Didact Gothic';
+	margin-top: 30px;
+	font-size: 40px;
+}
+.web-p
+{
+	font-family: 'Didact Gothic';
+	font-size: 23px;
+}
+.get-btn
+{
+	margin-top: 0px;
+	border-radius: 5px;
+	background-color: orange;
+	color: white;
+	border-radius: px;
+	padding: 10px;
+	text-align: center;	
+	margin-left: 50px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.get-btn:hover
+{
+	transition: .5s;
+	background-color: #854fee;
+	color: white;
+	text-decoration-style: none;
+	padding: 10px;
+	text-align: center;	
+	margin-left: 50px;
+}
+.lang-pack
+{
+	background-color:#f5f6fa; 
+	margin-bottom: 50px;
+}
+.acheive-h1
+{
+	color: white;
+	margin-bottom: 80px;
+	font-family: 'Bubblegum Sans';
+}
+.acheive-p
+{
+	margin-left: 100px;
+	margin-top: 200px;
+	font-family: 'Bubblegum Sans';
+	font-weight: 500;
+	font-size: 25px;
+	margin-bottom: 200px;
+}
+.acheivements
+{
+	background: url("image/background.png");
+	background-size: cover;	
+}
+.btn{
+	display: inline-block;
+    width:50px;
+    height: 50px;
+    background: #355c7d;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.certi-btn
+{
+	border: 2px solid #854fee;
+	border-radius: 5px;
+	color:  #854fee;
+	box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+	font-weight: 500;
+	font-size: 20px;
+	padding: 5px;
+}
+.certi-btn:hover
+{
+	text-decoration: none;
+	background-color:  #854fee;
+	transition: .5s;
+	color: white;
+}
+
+
+.btn i{
+	margin-left: 0px;
+    line-height: 35px;
+    font-size: 20px;
+    transition: 0.2s linear;
+}
+
+.btn:hover i{
+    transform: scale(1.3);
+    color: #f7f1e3;
+}
+
+.btn::before{
+    content: '';
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #ff5252;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+
+.btn:hover::before{
+    animation: animate 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes animate{
+    0%{
+        left: -110%;
+        top: 90%;
+    }
+    50%{
+        left: 10%;
+        top: -30%;
+    }
+    100%{
+        top: -10%;
+        left: -10%;
+    }
+}
